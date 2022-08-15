@@ -25,16 +25,6 @@ import collaborEat from './images/collaborEat.jpg';
 import hocaa from './images/hocaa.jpg';
 
 
-const slides = [
-  {image: pg1},
-  {image: pg2},
-  {image: pg3},
-  {image: pg4},
-  {image: pg5},
-  {image: pg6},
-  {image: pg7},
-]
-
 function App() {
 
   return (
@@ -46,7 +36,7 @@ function App() {
         <img src={flowers} className="nameImg"/>
       </div>
         
-        <div className='header'>
+        {/* <div className='header'>
         <div className="navigation">
           <a className="dropdown-item" href="#">
             Home
@@ -62,7 +52,7 @@ function App() {
           </a>
         </div>
 
-        </div>
+        </div> */}
 
 
         <div className="home-container">
