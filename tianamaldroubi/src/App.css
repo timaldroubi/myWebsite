@@ -26,19 +26,19 @@
 }
 
 .myname {
-  font-size: calc(40px + 2vmin);
+  font-size: calc(34px + 2vmin);
   /* color: #274e13; */
   color: palevioletred;
-  width: 34pc;
+  width: 32pc;
   padding-top: 1pc;
-  font-family: neutron;
+  font-family: 'Shrikhand', cursive;
   
 }
 .art-header {
-  font-size: calc(40px + 2vmin);
+  font-size: calc(34px + 2vmin);
   /* color: #274e13; */
   color: palevioletred;
-  font-family: neutron;
+  font-family: 'Shrikhand', cursive;
   text-align: center;
   align-self: center
 }
@@ -89,6 +89,25 @@
   width:80pc;
   height: 10pc;
   padding-top: 5pc;
+}
+
+.caption {
+  width: 50pc;
+ padding-left: 22pc;
+ padding-bottom: 3pc;
+ font-size: 14pt;
+}
+
+.caption2 {
+  width: 53pc;
+ padding-left: 22pc;
+ padding-bottom: 3pc;
+ font-size: 14pt;
+}
+
+.art {
+  width: 30pc;
+  padding-left: 4pc;
 }
 
 
@@ -145,7 +164,7 @@
 
 .colorDes {
   height: 35pc;
-  margin-bottom: 8.65pc;
+  margin-bottom: 5pc;
 }
 
 .fili {
@@ -221,3 +240,12 @@
   }
 }
 
+.header {
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top:0;
+  width: 100%;
+}
