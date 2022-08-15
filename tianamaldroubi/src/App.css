@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #fdf4dc;
+  
 }
 
 .App-logo {
@@ -14,14 +16,31 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: #fdf4dc; */
+  background-color: white;
+  min-height: 10name0vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.myname {
+  font-size: calc(40px + 2vmin);
+  /* color: #274e13; */
+  color: palevioletred;
+  width: 34pc;
+  padding-top: 1pc;
+  font-family: neutron;
+  
+}
+.art-header {
+  font-size: calc(40px + 2vmin);
+  /* color: #274e13; */
+  color: palevioletred;
+  font-family: neutron;
+  text-align: center;
+  align-self: center
 }
 
 .App-link {
@@ -36,3 +55,169 @@
     transform: rotate(360deg);
   }
 }
+
+.navigation {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.dropdown-item {
+  padding: 2pc;
+  padding-left: 5pc;
+  padding-right: 5pc;
+  font-size: 16pt;
+  color: #274e13;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+
+.dropdown-item:hover {
+  padding: 2pc;
+  padding-left: 5pc;
+  padding-right: 5pc;
+  font-size: 16pt;
+  color: #96ba5d;
+  text-decoration: none;
+
+  
+}
+
+.divider {
+  width:80pc;
+  height: 10pc;
+  padding-top: 5pc;
+}
+
+
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nameImg {
+  width: 36pc;
+  height:12pc;
+   padding-left: 2pc;
+  padding-right: 2pc;
+  padding-top: .5pc; 
+}
+
+
+.me {
+  height: 25pc;
+  border-radius: 5px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5pc;
+}
+
+.blurb {
+  width: 25pc;
+  padding-right: 12pc;
+  /* padding-top: 5pc; */
+  font-size: 15pt;
+  text-align: left;
+
+}
+
+.illustration-container{
+  padding-top: 5pc;
+}
+
+.art-ladies {
+  height: 42pc;
+  padding-left: 2pc;
+  padding-right: 2pc;
+}
+
+.carousel-container {
+  
+}
+.zine {
+  height: 40pc;
+}
+
+.colorDes {
+  height: 35pc;
+  margin-bottom: 8.65pc;
+}
+
+.fili {
+  padding: 1pc;
+  height: 42pc;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  object-fit: contain;
+  padding: .5pc;
+}
+
+.skills-list {
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+    /* list-style-image: url('https://cdn.iconscout.com/icon/free/png-256/right-arrow-1438234-1216195.png') */
+}
+
+.tech {
+  text-align: left;
+}
+
+.hello {
+  text-align: left;
+  font-size: 30pt;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.animations {
+  padding: 1pc;
+}
+
+#studiot {
+  padding-left: 3pc;
+}
+
+#arizona {
+  padding-bottom: 5pc;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
